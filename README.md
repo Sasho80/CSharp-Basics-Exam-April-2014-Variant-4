@@ -22,9 +22,9 @@ Constraints
 •	Allowed memory: 16 MB.
 Examples
 Input	  Output		            Input	 Output
-Premiere                      Normal
-10      1440.00 leva          21     2047.50 leva
-13                            12	  
+Premiere                                    Normal
+10      1440.00 leva                        21     2047.50 leva
+13                                          12	  
 	      		
 
 
