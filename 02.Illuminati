@@ -1,0 +1,40 @@
+using System;
+
+class Illuminati
+{
+    static void Main()
+    {
+        string massage = Console.ReadLine();
+        massage = massage.ToUpper();
+        int numberVowel = 0;
+        int vowel = 0;
+        int sumVowel = 0;
+        for (int i = 0; i < massage.Length; i++)
+        {
+                switch (massage[i])
+                {
+                    case 'A': vowel = 65;
+                        break;
+                    case 'E': vowel = 69;
+                        break;
+                    case 'I': vowel = 73;
+                        break;
+                    case 'O': vowel = 79;
+                        break;
+                    case 'U': vowel = 85;
+                        break;
+                    default:
+                        break;
+                }
+                if (vowel > 0)
+                {
+                    numberVowel += 1;
+                }
+                sumVowel += vowel;
+                vowel = 0;
+        }
+        Console.WriteLine(numberVowel);
+        Console.WriteLine(sumVowel);
+    }
+}
+
